@@ -17,6 +17,7 @@ html,body{
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
   background-color: rgb(129, 173, 255);
 }
 
