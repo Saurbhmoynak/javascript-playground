@@ -1,0 +1,92 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+
+body{
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+}
+
+#container{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#insta-logo{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2px;
+  color: rgb(255, 4, 151);
+  
+}
+
+#card{
+  height: 100%;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+#insta-stories{
+  height: 100px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border-bottom: 0.5px solid rgb(78, 78, 78);
+  border-top: 0.5px solid rgb(78, 78, 78);
+  padding: 12px 0px;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+#insta-stories::-webkit-scrollbar{
+  display: none;
+}
+
+#insta-stories .story{
+  height: 75px;
+  width: 75px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid red;
+  margin-left: 10px;
+}
+
+#insta-stories .story img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#full-screen{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: none;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
